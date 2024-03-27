@@ -52,7 +52,7 @@ void *numeros_quadrados (void *arg) {
    
     }
 
-    // printf("A thread %d terminou\n",args->thread);
+    
 
  
     }
@@ -105,7 +105,7 @@ int main() {
 
         args = malloc(sizeof(t_Args));
 
-       // printf("--Cria a thread %d\n", i);
+       
 
         args->thread = i;
         args->relacao = numeros_por_threads;
@@ -113,7 +113,7 @@ int main() {
         if (pthread_create(&tid_sistema[i], NULL, numeros_quadrados, (void*)args)) {
             printf("--ERRO: pthread_create()\n"); exit(-1);
         }
-       // printf("Terminou de criar a thread %d\n",i);
+       
 
   }
  
@@ -125,12 +125,6 @@ int main() {
     }
   }
 
-  /*
-    for (i=0; i<N; i++){
-    printf("\nEste agora é seu vetor!");
-    printf(" %d \n",vetor[i]);
-    }
-*/
 
 
 
@@ -149,7 +143,6 @@ int main() {
     }
 
   // Tira a prova real com cada elemento do vetor
-
 
   printf("\nVetor após passar pala função de raiz quadrada: \n");
       for (i=0; i<N; i++){
