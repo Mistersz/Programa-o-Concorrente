@@ -65,9 +65,9 @@ Esta secção mostra como executar de maneira correta os programas para observar
 - Todos os programas foram executados em uma máquina virtual com Kali Linux.
 
 <br>
-CPU: Intel Core i3 10105F CPU 3.70GHz (4 núcleos) <br>
-GPU: NVIDIA GeForce GTX 1650<br>
-Memory: 9500MiB 
+  CPU: Intel Core i3 10105F CPU 3.70GHz (4 núcleos) <br>
+  GPU: NVIDIA GeForce GTX 1650<br>
+  Memory: 9500MiB 
 
 <br>
 
