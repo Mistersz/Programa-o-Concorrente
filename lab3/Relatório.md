@@ -24,7 +24,6 @@ Esta secção mostra como executar de maneira correta os programas para observar
 
 
 
-
 <br>
 
 - **lematriz.c** -> Programa usado para ler um arquivo binário e apresentar seu conteúdo na tela.
@@ -74,9 +73,15 @@ Memory: 9500MiB
 
 ## Análise de tempo de execução
 
+- Todos os tempos abaixo são um média aritmética de três execuções dos programas.
+
 ## Sequencial
-|        | Tempo de execução total (segundos) | Tempo de inicialização (segundos) | Tempo de processamento (segundos) | Tempo de finalização (segundos) |
+
+|        | Tempo de execução total (segundos) | Tempo de preparação (segundos) | Tempo de processamento (segundos) | Tempo de finalização (segundos) |
 |--------|------------------------------------|-----------------------------------|-----------------------------------|---------------------------------|
-| matriz1_500x500 . matriz2_500x500 | 0.337232 | 0.003446 | 0.332933 | 0.001186 |
-| matriz1_1000x1000 . matriz2_1000x1000 | 2.663080 | 0.007834 | 2.651478 | 0.005435 |
-| matriz1_2000x2000 . matriz2_2000x2000 | 22.201955 | 0.014359 | 22.174885 | 0.013379 |
+| matriz1_500x500 . matriz2_500x500 | 0.39629466  | 0.0015023 | 0.39225 |  0.0025393 |
+| matriz1_1000x1000 . matriz2_1000x1000 | 3.4989293 | 0.0047546| 3.48200233|  0.012172333|
+| matriz1_2000x2000 . matriz2_2000x2000 | 48.06427199 | 0.011933  | 47.99428366 | 0.05805466 |
+
+
+
