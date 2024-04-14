@@ -70,12 +70,15 @@ Esta secção mostra como executar de maneira correta os programas para observar
   Memory: 9500MiB 
 
 <br>
+<br>
+
 
 ## Análise de tempo de execução
 
 - Todos os tempos abaixo são um média aritmética de três execuções dos programas.
+<br>
 
-## Sequencial
+### Sequencial
 
 |        | Tempo de execução total (segundos) | Tempo de preparação (segundos) | Tempo de processamento (segundos) | Tempo de finalização (segundos) |
 |--------|------------------------------------|-----------------------------------|-----------------------------------|---------------------------------|
@@ -84,4 +87,11 @@ Esta secção mostra como executar de maneira correta os programas para observar
 | matriz1_2000x2000 . matriz2_2000x2000 | 48.06427199 | 0.011933  | 47.99428366 | 0.05805466 |
 
 
+### Concorrente 1 thread
+
+|        | Tempo de execução total (segundos) | Tempo de preparação (segundos) | Tempo de processamento (segundos) | Tempo de finalização (segundos) |
+|--------|------------------------------------|-----------------------------------|-----------------------------------|---------------------------------|
+| matriz1_500x500 . matriz2_500x500 | 0.39629466  | 0.0015023 | 0.39225 |  0.0025393 |
+| matriz1_1000x1000 . matriz2_1000x1000 | 3.4989293 | 0.0047546 | 3.48200233|  0.012172333|
+| matriz1_2000x2000 . matriz2_2000x2000 | 68.017932 |0.0094466666666 | 67.997206666 | 0.0112786666666 |
 
