@@ -86,15 +86,17 @@ Esta secção mostra como executar de maneira correta os programas para observar
 | matriz1_1000x1000 . matriz2_1000x1000 | 3.4989293 | 0.0047546| 3.48200233|  0.012172333|
 | matriz1_2000x2000 . matriz2_2000x2000 | 48.06427199 | 0.011933  | 47.99428366 | 0.05805466 |
 
+<br>
 
 ### Concorrente 1 thread
 
 |        | Tempo de execução total (segundos) | Tempo de preparação (segundos) | Tempo de processamento (segundos) | Tempo de finalização (segundos) |
 |--------|------------------------------------|-----------------------------------|-----------------------------------|---------------------------------|
-| matriz1_500x500 . matriz2_500x500 | 0.39629466  | 0.0015023 | 0.39225 |  0.0025393 |
-| matriz1_1000x1000 . matriz2_1000x1000 | 3.4989293 | 0.0047546 | 3.48200233|  0.012172333|
+| matriz1_500x500 . matriz2_500x500 | 0.56381166666  | 0.001154333333 | 0.561533666 |  0.001123666666 |
+| matriz1_1000x1000 . matriz2_1000x1000 | 6.0628103333 | 0.00376 | 6.055683666666667 |   0.0033666666 |
 | matriz1_2000x2000 . matriz2_2000x2000 | 68.017932 |0.0094466666666 | 67.997206666 | 0.0112786666666 |
 
+<br>
 
 ### Concorrente 2 thread
 
@@ -104,6 +106,7 @@ Esta secção mostra como executar de maneira correta os programas para observar
 | matriz1_1000x1000 . matriz2_1000x1000 | 3.16676433 | 0.003401333 | 3.158213 |  0.005150 |
 | matriz1_2000x2000 . matriz2_2000x2000 | 34.651016 | 0.0801966666 | 34.556617 | 0.01420233333333 |
 
+<br>
 
 
 ### Concorrente 4 thread
@@ -115,6 +118,7 @@ Esta secção mostra como executar de maneira correta os programas para observar
 | matriz1_2000x2000 . matriz2_2000x2000 | 22.371884666 | 0.00992100 | 22.35016066 | 0.011803 |
 
 
+<br>
 
 ### Concorrente 8 thread
 
