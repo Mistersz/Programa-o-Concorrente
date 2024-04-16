@@ -98,7 +98,7 @@ Esta secção mostra como executar de maneira correta os programas para observar
 
 <br>
 
-### Concorrente 2 thread
+### Concorrente 2 threads
 
 |        | Tempo de execução total (segundos) | Tempo de preparação (segundos) | Tempo de processamento (segundos) | Tempo de finalização (segundos) |
 |--------|------------------------------------|-----------------------------------|-----------------------------------|---------------------------------|
@@ -109,7 +109,7 @@ Esta secção mostra como executar de maneira correta os programas para observar
 <br>
 
 
-### Concorrente 4 thread
+### Concorrente 4 threads
 
 |        | Tempo de execução total (segundos) | Tempo de preparação (segundos) | Tempo de processamento (segundos) | Tempo de finalização (segundos) |
 |--------|------------------------------------|-----------------------------------|-----------------------------------|---------------------------------|
@@ -120,7 +120,7 @@ Esta secção mostra como executar de maneira correta os programas para observar
 
 <br>
 
-### Concorrente 8 thread
+### Concorrente 8 threads
 
 |        | Tempo de execução total (segundos) | Tempo de preparação (segundos) | Tempo de processamento (segundos) | Tempo de finalização (segundos) |
 |--------|------------------------------------|-----------------------------------|-----------------------------------|---------------------------------|
