@@ -5,7 +5,7 @@
 
 ## Objetivo do laboratório:
 
-- O objetivo desse lab3 é demonstrar como a capacidade de processamento de dados de forma paralela pode possuir um tempo de execução menor em comparação à execucação de atividades sequenciais em um programa CPU Bound.
+- O objetivo desse lab3 é demonstrar como a capacidade de processamento de dados de forma paralela pode possuir um tempo de execução menor em comparação à execução de atividades sequenciais em um programa CPU Bound.
 
 <br>
 
