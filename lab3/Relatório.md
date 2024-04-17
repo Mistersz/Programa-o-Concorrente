@@ -155,7 +155,7 @@ Esta secção mostra como executar de maneira correta os programas para observar
   <img src="https://github.com/Mistersz/Programa-o-Concorrente/assets/82767252/c4f6dc84-e253-470a-bca9-355ea34722a5"/>
 </p>
 
-Sendo A = **aceleração** e N = **número de núcleos do processador**
+Sendo A = **aceleração** e p = **número de núcleos do processador**
 
 <br>
 
