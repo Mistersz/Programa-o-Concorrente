@@ -1,5 +1,11 @@
 # Programação-Concorrente
 
+
+# Propósito deste repositório
+
+- Repositório para armazenar códigos ligados a disciplina de Programação Concorrente ICP361 - UFRJ
+
+
 ## lab1.c 
 O programa deve ser executado com o seguinte comando: 
 ```
