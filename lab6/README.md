@@ -28,7 +28,7 @@ Esta secção mostra como executar de maneira correta os programas para observar
 
 - **lenumeros.c** -> Programa usado para ler um arquivo binário , apresentar seu conteúdo na tela e informar a quantidade de numeros primos.
 
-  ``` gcc lenumeros.c -o lenumeros ```
+  ``` gcc -o lenumeros lenumeros.c -lpthread -Wall -l ```
 
   - **Execução**:
 
